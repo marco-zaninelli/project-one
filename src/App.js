@@ -1,5 +1,5 @@
 import "./App.css";
-import Checklist from "./checklist";
+import Checklist from "./01-checklist/checklist";
 
 function App () {
     const initialItems = [
