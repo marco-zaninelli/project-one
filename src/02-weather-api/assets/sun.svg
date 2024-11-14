@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" version="1.1" viewBox="0 0 400 500" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+
+        <rect width="400" height="500" fill="#fff0c6"/>
+    <g transform="matrix(1.1014 0 0 1.1014 -25.937 -48.535)">
+            <circle cx="205.14" cy="271.05" r="141.08" fill="#ff7e58"/>
+        </g>
+
+</svg>
