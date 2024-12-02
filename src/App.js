@@ -6,6 +6,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import ChecklistPage from "./pages/ChecklistPage";
 import WeatherApiPage from "./pages/WeatherApiPage";
+import TicTacToePage from "./pages/TicTacToePage";
 
 function App() {
     return (
@@ -24,6 +25,9 @@ function App() {
                         <li>
                             <Link to="/weather-api">Weather API</Link>
                         </li>
+                        <li>
+                            <Link to="/tic-tac-toe">Tic Tac Toe</Link>
+                        </li>
                     </ul>
                 </nav>
 
@@ -32,6 +36,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/checklist" element={<ChecklistPage />} />
                     <Route path="/weather-api" element={<WeatherApiPage />} />
+                    <Route path="/tic-tac-toe" element={<TicTacToePage />} />
                 </Routes>
             </div>
         </Router>

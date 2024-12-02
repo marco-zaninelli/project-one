@@ -59,10 +59,10 @@ export default function Weather ({latitude, longitude}) {
                 setIsLoading(false);
 
                 // Set background image based on weather icon
-                const backgroundImage = weatherBackgrounds[result.weather[0].icon.slice(0,2)];
+                const backgroundImage = weatherBackgrounds[result.weather[0].icon.slice(0, 2)];
                 setBackgroundStyle(backgroundImage || "");
 
-                if(backgroundImage === Thunderstorm || backgroundImage === Rain){
+                if (backgroundImage === Thunderstorm || backgroundImage === Rain) {
                     setIsDark(true);
                 } else {
                     setIsDark(false);
@@ -77,7 +77,7 @@ export default function Weather ({latitude, longitude}) {
     }, [lat, lng]);
 
     // Get user's current location
-    function GetLocation () {
+    const GetLocation = () => {
         const getLocation = async () => {
             setIsLoading(true);
             navigator.geolocation.getCurrentPosition(
@@ -92,10 +92,10 @@ export default function Weather ({latitude, longitude}) {
             );
         };
         getLocation();
-    }
+    };
 
     return (
-        <div className={`relative w-[400px] h-[500px] mx-auto border border-black rounded-lg ${isDark?'text-white':'text-black'}`}>
+        <div className={`relative w-[400px] h-[500px] mx-auto border border-black rounded-lg ${isDark ? "text-white" : "text-black"}`}>
 
             {/* Loading screen */}
             {isLoading ? (
@@ -133,7 +133,7 @@ export default function Weather ({latitude, longitude}) {
                                     onMouseEnter={() => { setButtonHover(true); }}
                                     onMouseLeave={() => { setButtonHover(false); }}
                                     className={"absolute bottom-5 right-5 w-12 h-12 rounded-full bg-transparent shadow flex justify-center items-center hover:shadow-lg transition-shadow duration-200 backdrop-blur"}>
-                                    <LocationIcon className={`w-6 h-6 ${isDark?'text-white':'text-black'}`} />
+                                    <LocationIcon className={`w-6 h-6 ${isDark ? "text-white" : "text-black"}`} />
                                 </button>
                             </>
                         )}

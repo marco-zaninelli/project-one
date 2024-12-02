@@ -15,4 +15,6 @@ Welcome to my personal playground! This repository showcases various small proje
 This project is open source under the [Creative Commons (CC)](LICENSE.md).
 
 ## Contact
-Reach me at [your-email@example.com](mailto:your-email@example.com).
+- Reach me at [marco@zaninelli.me](mailto:marco@zaninelli.me). 
+- See what I am up to on [LinkedIn](https://www.linkedin.com/in/marco-zaninelli/).
+- And [Instagram](https://www.instagram.com/zaninfocus/profilecard/?igsh=N3RkeDF6bGRtaDRn) for my photos
